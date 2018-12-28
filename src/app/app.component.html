@@ -7,8 +7,8 @@
       </a>
     </div>
     <div class="header-nav">
-      <a class="nav-link" ><span class="nav-text">Articles</span></a>
-      <a class="nav-link" ><span class="nav-text">Authors</span></a>
+      <a class="nav-link" routerLink="/articles" ><span class="nav-text">Articles</span></a>
+      <a class="nav-link" routerLink="/authors" ><span class="nav-text">Authors</span></a>
     </div>
     <div class="header-actions">
       <a class="nav-link nav-icon">
@@ -21,6 +21,7 @@
   </header>
   <div class="content-container">
     <div class="content-area">
+      <router-outlet></router-outlet>
     </div>
   </div>
 </clr-main-container>
