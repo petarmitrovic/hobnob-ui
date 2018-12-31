@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-xs-6"><a>&lt; Previous Post</a></div>
+  <div class="col-xs-6" style="text-align: right"><a>Next Post &gt;</a></div>
+</div>
+<div class="card">
+  <div class="card-header">{{article?.title}}</div>
+  <div class="card-img">
+    <img [src]="image">
+  </div>
+  <div class="card-block">
+    <div class="card-text">
+      <p *ngFor="let line of lines">{{line}}</p>
+    </div>
+    <div class="row">
+      <div class="col-xs">{{article?.author.name}}</div>
+      <div class="col-xs" style="text-align: right">{{article?.published_on | date:'medium'}}</div>
+    </div>
+  </div>
+</div>
