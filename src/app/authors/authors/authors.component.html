@@ -1,13 +1,14 @@
-<div class="container">
-  <div class="clr-row">
-    <div class="clr-col-3">
-      One of three columns
-    </div>
-    <div class="clr-col-3">
-      One of three columns
-    </div>
-    <div class="clr-col-3">
-      One of three columns
-    </div>
+<div class="clr-row">
+  <div class="clr-col-lg-3 clr-col-md-4 clr-col-xs-12" *ngFor="let author of authors">
+    <a routerLink="/articles/{{author.uuid}}" class="card clickable">
+      <div class="card-img">
+        <img [src]="author.image">
+      </div>
+      <div class="card-block">
+        <p class="card-text">
+          {{author.name}}
+        </p>
+      </div>
+    </a>
   </div>
 </div>

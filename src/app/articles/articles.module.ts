@@ -12,11 +12,11 @@ import { ArticleComponent } from './article/article.component';
     ArticlesRoutingModule
   ],
   declarations: [
-      ArticlesComponent,
-      ArticleComponent
+    ArticlesComponent,
+    ArticleComponent
   ],
-    providers: [
-      ArticlesService
-    ]
+  providers: [
+    ArticlesService
+  ]
 })
 export class ArticlesModule { }
