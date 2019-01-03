@@ -12,7 +12,7 @@ export interface Article {
 
 export const data = [
     {
-        'uuid': 'uuid-author-1',
+        'uuid': 'uuid-article-1',
         'title': 'Sacrifice',
         'content': 'Pellentesque rutrum sit amet neque lobortis feugiat. Etiam rutrum eget nisi vitae facilisis. ' +
             'Suspendisse auctor non eros ut pulvinar. Curabitur vitae diam rhoncus, pellentesque lectus eget, tincidunt sapien. ' +
@@ -26,7 +26,7 @@ export const data = [
         'published_on': '7/14/2018'
     },
     {
-        'uuid': 'uuid-author-2',
+        'uuid': 'uuid-article-2',
         'title': 'On crusades',
         'content': 'Pellentesque rutrum sit amet neque lobortis feugiat. Etiam rutrum eget nisi vitae facilisis. ' +
             'Suspendisse auctor non eros ut pulvinar. Curabitur vitae diam rhoncus, pellentesque lectus eget, tincidunt sapien. ' +
@@ -40,7 +40,7 @@ export const data = [
         'published_on': '8/15/2018'
     },
     {
-        'uuid': 'uuid-author-3',
+        'uuid': 'uuid-article-3',
         'title': 'The rising',
         'content': 'Pellentesque rutrum sit amet neque lobortis feugiat. Etiam rutrum eget nisi vitae facilisis. ' +
             'Suspendisse auctor non eros ut pulvinar. Curabitur vitae diam rhoncus, pellentesque lectus eget, tincidunt sapien. ' +
@@ -54,7 +54,7 @@ export const data = [
         'published_on': '9/16/2018'
     },
     {
-        'uuid': 'uuid-author-4',
+        'uuid': 'uuid-article-4',
         'title': 'The offspring',
         'content': 'Pellentesque rutrum sit amet neque lobortis feugiat. Etiam rutrum eget nisi vitae facilisis. ' +
             'Suspendisse auctor non eros ut pulvinar. Curabitur vitae diam rhoncus, pellentesque lectus eget, tincidunt sapien. ' +
@@ -68,7 +68,7 @@ export const data = [
         'published_on': '10/17/2018'
     },
     {
-        'uuid': 'uuid-author-5',
+        'uuid': 'uuid-article-5',
         'title': 'Burning it all down',
         'content': 'Pellentesque rutrum sit amet neque lobortis feugiat. Etiam rutrum eget nisi vitae facilisis. ' +
             'Suspendisse auctor non eros ut pulvinar. Curabitur vitae diam rhoncus, pellentesque lectus eget, tincidunt sapien. ' +

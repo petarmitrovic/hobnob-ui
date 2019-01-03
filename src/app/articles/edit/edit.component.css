@@ -1,0 +1,11 @@
+.edit-wrapper {
+    background: none;
+}
+.edit-wrapper .edit {
+    display: block;
+    width: 100%;
+    background: none;
+}
+.edit-wrapper .edit:after {
+    background: none;
+}

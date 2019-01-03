@@ -1,0 +1,21 @@
+<div class="content-container">
+  <div class="content-area">
+    <div class="edit-wrapper">
+      <form clrForm clrLayout="horizontal" (ngSubmit)="save()">
+        <div>
+          <label for="article_title">Title</label><br>
+          <input name="title" class="form-control" [(ngModel)]="title" type="text" id="article_title">
+        </div>
+        <div>
+          <label for="article_content">Content</label><br>
+          <textarea name="content" class="form-control" [(ngModel)]="content" rows="3" id="article_content"></textarea>
+        </div>
+        <div>
+          <label for="article_image">Image</label><br>
+          <input name="image" class="form-control" [(ngModel)]="image" type="text" id="article_image">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
